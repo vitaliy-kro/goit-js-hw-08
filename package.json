@@ -1,5 +1,5 @@
 {
-  "name": "parcel-project-template",
+  "name": "hw-8-js",
   "version": "2.0.0",
   "description": "",
   "homepage": "https://vitaliy-kro.github.io/goit-js-hw-08",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/vitaliy-kro/goit-js-hw-08"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
