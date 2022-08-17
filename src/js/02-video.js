@@ -9,7 +9,6 @@ player.on('timeupdate', throttle(storageSet, 1000));
 player
   .setCurrentTime(localStorage.getItem(STORAGE_KEY))
   .catch(function (error) {
-    console.log(error);
     switch (error.name) {
       case 'RangeError':
         // the time was less than 0 or greater than the video’s duration
