@@ -28,7 +28,6 @@ formRef.addEventListener('click', e => {
 
 function initForm() {
   let parsedStorageValues = localStorage.getItem(FEEDBACK_STORAGE_KEY);
-  console.log('parsedStorageValues', parsedStorageValues);
 
   if (parsedStorageValues) {
     parsedStorageValues = JSON.parse(parsedStorageValues);
